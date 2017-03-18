@@ -233,11 +233,25 @@ t.unshift("not", function (makeValidator, input) {
 
 var newFunc2 = overload();
 
-newFunc.overload(types.not(Number), function (notNumber) {
+newFunc2.overload(types.not(Number), function (notNumber) {
     // handle it
 });
 
 newFunc(0); // throws
 newFunc("0"); // pass
 newFunc(true); // pass
+```
+
+cleaned method
+```javascript
+var newFunc = overload(function () {
+    return 1;
+});
+// create cleaned method with the original one
+var newFunc2 = newFunc.clean();
+
+newFunc(); // -> 1
+newFunc2(); // -> 1
+
+newFunc2.overload(someFunc) // throws
 ```

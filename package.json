@@ -1,6 +1,6 @@
 {
   "name": "function-overload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
   "main": "index.js",
   "directories": {
@@ -12,6 +12,10 @@
   },
   "scripts": {
     "test": " ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mmis1000/js-function-overload.git"
   },
   "author": "mmis1000",
   "license": "MIT"

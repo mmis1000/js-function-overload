@@ -1,6 +1,8 @@
 Function overload
 ===================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mmis1000/js-function-overload.svg)](https://greenkeeper.io/)
+
 overload the function with flexible way
 
 Usage
